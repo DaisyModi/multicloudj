@@ -21,8 +21,11 @@ jobs:
         distribution: 'temurin'
         cache: maven
         
+    - name: Install parent POM
+      run: mvn -N install -Drevision=0.2.3-SNAPSHOT
+      
     - name: Build with Maven
-      run: mvn -B clean test
+      run: mvn -B clean test -Drevision=0.2.3-SNAPSHOT
       
     - name: Upload Test Results
       if: always()

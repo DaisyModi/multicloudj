@@ -22,8 +22,11 @@ jobs:
           distribution: "temurin"
           cache: maven
 
+      - name: Install parent POM
+        run: mvn -N install -Drevision=0.2.3-SNAPSHOT
+
       - name: Build with Maven and run tests
-        run: mvn -B clean verify
+        run: mvn -B clean verify -Drevision=0.2.3-SNAPSHOT
 
       - name: Debug - Check JaCoCo Report Location
         run: |
