@@ -1,5 +1,34 @@
 # Changelog
 
+## [0.2.11](https://github.com/DaisyModi/multicloudj/compare/multicloudj-v0.2.10...multicloudj-v0.2.11) (2025-11-01)
+
+
+### Bug Fixes
+
+* correct changelog to show commits between releases ([#97](https://github.com/DaisyModi/multicloudj/issues/97)) ([f41d143](https://github.com/DaisyModi/multicloudj/commit/f41d1434b9f407487c4bd500973b72b9f8cf8275))
+
+
+### Blob Store
+
+* add getTag and setTag apis ([#117](https://github.com/DaisyModi/multicloudj/issues/117)) ([942347e](https://github.com/DaisyModi/multicloudj/commit/942347ef2ef428f0a19742078349b22df21cf6a9))
+* Add SSE in multi-part upload ([#112](https://github.com/DaisyModi/multicloudj/issues/112)) ([32a920f](https://github.com/DaisyModi/multicloudj/commit/32a920fb6625cfdd30be6d4c9035429a0ebc2d0b))
+
+
+### Document Store
+
+* release please and fix the test ([#105](https://github.com/DaisyModi/multicloudj/issues/105)) ([d7458bd](https://github.com/DaisyModi/multicloudj/commit/d7458bd16fc9134a2faa6878d28716f66a3f2ea4))
+* test the release ([#101](https://github.com/DaisyModi/multicloudj/issues/101)) ([c94e18a](https://github.com/DaisyModi/multicloudj/commit/c94e18a270d80c44f4d53773ec9c6003d99ce2c5))
+
+
+### PubSub
+
+* add getAttributes for gcp pubsub ([#120](https://github.com/DaisyModi/multicloudj/issues/120)) ([228ab6f](https://github.com/DaisyModi/multicloudj/commit/228ab6fda6f7ad7f963ef3c676cac513c4d62520))
+
+
+### IAM
+
+* onboarding client layer for IAM ([#90](https://github.com/DaisyModi/multicloudj/issues/90)) ([a57e09d](https://github.com/DaisyModi/multicloudj/commit/a57e09deb11eae6e0c3abe28a33f912729131d2e))
+
 ## [0.2.10](https://github.com/salesforce/multicloudj/compare/multicloudj-v0.2.9...multicloudj-v0.2.10) (2025-10-30)
 
 
